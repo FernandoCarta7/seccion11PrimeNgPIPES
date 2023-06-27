@@ -1,9 +1,9 @@
-import { MenuItem } from 'primeng/api';
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MenuComponent } from './components/menu/menu.component';
-
 import { PrimeNgModule, } from '../prime-ng/prime-ng.module';
+import { NgModule } from '@angular/core';
+import { MenuItem } from 'primeng/api';
+import { MenuComponent } from './components/menu/menu.component';
+import { CommonModule } from '@angular/common';
+
 
 
 

@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./uncommon-page.component.css']
 })
 export class UncommonPageComponent {
-
+  //i18n Select
+  public name:string = 'Fernando';
+  public gender: 'male' | 'female' = 'male';
 }
