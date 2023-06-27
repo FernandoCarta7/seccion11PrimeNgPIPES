@@ -3,7 +3,7 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "a2186fd1-96d6-4ba2-b035-a19cac118a1d"
+    "analytics": false
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -34,7 +34,6 @@
               "node_modules/primeng/resources/themes/vela-green/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeflex/primeflex.min.css"
-
             ],
             "scripts": []
           },

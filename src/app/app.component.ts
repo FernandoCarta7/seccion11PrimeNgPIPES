@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PrimeNGConfig, SharedModule } from 'primeng/api';
+import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,11 @@ import { PrimeNGConfig, SharedModule } from 'primeng/api';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private primengConfig: PrimeNGConfig) {}
 
-    ngOnInit() {
-        this.primengConfig.ripple = true;
-    }
+  constructor( private primengConfig: PrimeNGConfig ) {}
+
+  ngOnInit() {
+      this.primengConfig.ripple = true;
+  }
+
 }

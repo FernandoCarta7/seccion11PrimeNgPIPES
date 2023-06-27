@@ -1,25 +1,20 @@
-import { TabViewModule } from 'primeng/tabview';
-import { SplitterModule } from 'primeng/splitter';
-import { PanelModule } from 'primeng/panel';
 import { NgModule } from '@angular/core';
-import { MenubarModule } from 'primeng/menubar';
-import { FieldsetModule } from 'primeng/fieldset';
-import { CardModule } from 'primeng/card';
-import { ButtonModule } from 'primeng/button';
-import { AccordionModule } from 'primeng/accordion';
-//import { MenuModule } from 'primeng/menu';
-@NgModule({
-  exports:[
-    //MenuModule,
-    TabViewModule,
-    SplitterModule,
-    PanelModule,
-    MenubarModule,
-    FieldsetModule,
-    CardModule,
-    ButtonModule,
-    AccordionModule,
 
+import { MenubarModule } from 'primeng/menubar';
+// import { MenuModule } from 'primeng/menu';
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
+import { PanelModule } from 'primeng/panel';
+
+@NgModule({
+  exports: [
+    // MenuModule,
+    ButtonModule,
+    CardModule,
+    FieldsetModule,
+    MenubarModule,
+    PanelModule,
   ]
 })
 export class PrimeNgModule { }
