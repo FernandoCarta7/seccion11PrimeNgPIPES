@@ -6,15 +6,19 @@ import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
+import { ToolbarModule } from 'primeng/toolbar';
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   exports: [
-    // MenuModule,
-    ButtonModule,
-    CardModule,
-    FieldsetModule,
-    MenubarModule,
+    TableModule,
+    ToolbarModule,
     PanelModule,
+    MenubarModule,
+    FieldsetModule,
+    CardModule,
+    ButtonModule,
+    // MenuModule,
   ]
 })
 export class PrimeNgModule { }
